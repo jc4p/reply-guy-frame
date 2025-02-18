@@ -1,0 +1,17 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjk3NzIzMywidHlwZSI6ImN1c3RvZHkiLCJrZXkiOiIweGE2N0JhMDI4MTIzMWVCOUUyZWE0Y0Y5Nzg5NGMwYjBiNUI4MDFDYzYifQ",
+    "payload": "eyJkb21haW4iOiJyZXBseS1ndXkua2FzcmEuY29kZXMifQ",
+    "signature": "MHgyNGU3ZWFjZjFkNWE5NTIzOThhZjcxMmNmZjc0ZjY5NDY3Y2VkYmJkZjlkYThhZTY0ZTExOWY3NWIyOWRkODE2MzdhZTJhOTM1MjIzMjNhZjgwNzY5MWNjYTYxNjU1YzE1NDQ3MmVmZGUzZDM2NWE1YzZjMjA0YzAzMjlkMjc3NDFi"
+  },
+  "frame": {
+    "version": "1",
+    "name": "Are You A Reply Guy?",
+    "iconUrl": "https://cover-art.kasra.codes/reply-guy-icon-512-square.png",
+    "homeUrl": "https://reply-guy.kasra.codes",
+    "imageUrl": "https://cover-art.kasra.codes/reply-guy-icon-512-square.png",
+    "buttonTitle": "Check this out",
+    "splashImageUrl": "https://cover-art.kasra.codes/reply-guy-icon-512-square.png",
+    "splashBackgroundColor": "#274374"
+  }
+}

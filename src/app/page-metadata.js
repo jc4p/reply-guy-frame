@@ -26,7 +26,7 @@ export async function generateFrameMetadata({ searchParams }) {
             type: "launch_frame",
             name: "Reply Guy Analyzer",
             url: baseUrl,
-            splashImageUrl: imageUrl,
+            splashImageUrl: "https://cover-art.kasra.codes/reply-guy-icon-512-square.png",
             splashBackgroundColor: "#274374"
           }
         }

@@ -49,9 +49,9 @@ export async function GET(request) {
               fontFamily: 'Karla',
             }}
           >
-            <div style={{ fontSize: 60, marginBottom: 20 }}>🤝</div>
-            <div style={{ fontSize: 40, marginBottom: 10 }}>Are You A Reply Guy?</div>
-            <div style={{ fontSize: 24, opacity: 0.8 }}>Identify your own personality now!</div>
+            <div style={{ fontSize: 75, marginBottom: 20 }}>🤝</div>
+            <div style={{ fontSize: 52, marginBottom: 10 }}>Are You A Reply Guy?</div>
+            <div style={{ fontSize: 32, opacity: 0.8 }}>Identify your own personality now!</div>
           </div>
         ),
         {
@@ -111,7 +111,7 @@ export async function GET(request) {
         >
           {/* Title */}
           <div style={{ 
-            fontSize: 56,
+            fontSize: 72,
             fontWeight: 500,
             marginBottom: 60,
             display: 'flex',
@@ -134,13 +134,13 @@ export async function GET(request) {
               src={userProfile.pfp_url}
               alt={userProfile.username}
               style={{
-                width: 100,
-                height: 100,
+                width: 120,
+                height: 120,
                 borderRadius: '50%',
               }}
             />
             <div style={{ 
-              fontSize: 32,
+              fontSize: 42,
               opacity: 0.9,
               display: 'flex',
             }}>@{userProfile.username}</div>
@@ -148,7 +148,7 @@ export async function GET(request) {
 
           {/* Main message */}
           <div style={{ 
-            fontSize: 48, 
+            fontSize: 62, 
             fontWeight: 'bold',
             marginBottom: 20,
             textAlign: 'center',
@@ -170,7 +170,7 @@ export async function GET(request) {
               .slice(0, 3)
               .map((type, index) => (
                 <div key={index} style={{
-                  fontSize: 24,
+                  fontSize: 32,
                   opacity: 0.8,
                   display: 'flex',
                 }}>
@@ -182,7 +182,7 @@ export async function GET(request) {
 
           {/* Call to action */}
           <div style={{ 
-            fontSize: 28,
+            fontSize: 36,
             opacity: 0.8,
             position: 'absolute',
             bottom: 60,

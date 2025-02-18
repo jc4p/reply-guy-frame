@@ -148,7 +148,7 @@ export async function GET(request) {
 
           {/* Main message */}
           <div style={{ 
-            fontSize: 62, 
+            fontSize: 56, 
             fontWeight: 'bold',
             marginBottom: 20,
             textAlign: 'center',

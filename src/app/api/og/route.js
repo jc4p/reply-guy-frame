@@ -148,13 +148,13 @@ export async function GET(request) {
 
           {/* Main message */}
           <div style={{ 
-            fontSize: 56, 
+            fontSize: 58, 
             fontWeight: 'bold',
             marginBottom: 20,
             textAlign: 'center',
             display: 'flex',
           }}>
-            I'm a certified {analysisData?.user_type?.primary_type?.type} ({analysisData?.user_type?.primary_type?.percentage}%)!
+            I'm a certified {analysisData?.user_type?.primary_type?.type}!
           </div>
 
           {/* Additional traits */}
